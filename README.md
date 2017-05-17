@@ -1,4 +1,4 @@
-# hydroculture
+# Hydroculture
 Hydroculture is the growing of plants in a soilless medium, or an aquatic based environment. Plant nutrients are distributed via water.
 ## Techniques
 In basic hydroculture or passive hydroponics, water and nutrients are distributed through capillary action. In hydroponics-like hydroculture, water and nutrients are distributed by some form of pumping mechanism.
