@@ -1,0 +1,14 @@
+Modify Code
+
+Open your App.xaml.cs
+
+Search the constructor "App" and add the following line at the top of the method:
+
+HockeyApp.CrashHandler.Instance.Configure(this, "1d2478b99e6e43f1bb9780d4d8c5f1df", RootFrame);
+
+Open the root page of your app (or the page in which you want to check for new crashes), for example MainPage.xaml.cs.
+
+Search the method "Initialize" and add the following line at the bottom:
+
+HockeyApp.CrashHandler.Instance.HandleCrashes();
+Build your project and run the app. Note that the crash reporting only works if the debugger is not attached.
