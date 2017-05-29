@@ -1,5 +1,28 @@
+This branch has no conflicts with the base branch
+Merging can be performed automatically.
 Modify Code
+Merge Pull Request
+You can also open this in GitHub Desktop or view command line instructions 
+Merging via command line
+If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line.
+ HTTPS
+ Git
+Patch
 
+https://github.com/mayaware/hydroculture.git
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b mayaware-patch-1 origin/mayaware-patch-1
+git merge master
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff mayaware-patch-1
+git push origin master
+
+For development netpot apps we are use service like HockeyApp is a service for app developers to support them in various aspects of their development process, including the management and recruitment of testers, the distribution of apps and the collection of crash reports.
 Open your App.xaml.cs
 
 Search the constructor "App" and add the following line at the top of the method:
