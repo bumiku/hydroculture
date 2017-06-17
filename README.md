@@ -5,6 +5,7 @@ In basic hydroculture or passive hydroponics, water and nutrients are distribute
 ## Substrates
 The roots might be anchored in clay aggregate such as the trademarks LECA and Hydroton.
 Advantages include ease of maintenance as watering and feeding involve just topping up the reservoir of growing solution. Certain types of hydroponic media are resistant to some types of soil-borne insects.
+
 // This code requires the Nuget package Microsoft.AspNet.WebApi.Client to be installed.
 // Instructions for doing this in Visual Studio:
 // Tools -> Nuget Package Manager -> Package Manager Console
