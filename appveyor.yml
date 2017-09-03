@@ -1,0 +1,16 @@
+version: 1.0.{build}
+nuget:
+  account_feed: true
+  project_feed: true
+build:
+  verbosity: minimal
+artifacts:
+- path: wildcard
+  name: bumi
+notifications:
+- provider: Email
+  to:
+  - lsmbumiku@gmail.com
+  on_build_success: true
+  on_build_failure: true
+  on_build_status_changed: true
